@@ -1,0 +1,103 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estiliza o menu de navegação */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #f4b400;
+}
+
+/* Estiliza a seção do orçamento */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Tabela de materiais */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #333;
+    color: white;
+}
+
+/* Botões */
+button {
+    background: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+button.red {
+    background: #dc3545;
+}
+
+button.red:hover {
+    background: #c82333;
+}
+
+/* Sugestões de materiais */
+#sugestoes {
+    border: 1px solid #ccc;
+    background: white;
+    max-width: 200px;
+    position: absolute;
+    display: none;
+    z-index: 100;
+}
+
+#sugestoes p {
+    padding: 5px;
+    cursor: pointer;
+}
+
+#sugestoes p:hover {
+    background: #eee;
+}
